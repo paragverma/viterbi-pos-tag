@@ -8,10 +8,14 @@ The output POS Tags depend on the tags used in the training sentences. Usually, 
 #### How to use:
     $python viterby.py -s "Today is a wonderful day"
     ['NN', 'VBZ', 'DT', 'NN']
-There is also a trimmed version which can be imported by other projects #### Coming Soon
+
+#### Importing package (Coming Soon)
+    import ViterbiPOSTagger
+
+See documentation **here**
 
 #### Some important notes
-- The default training corpus is the *Brown* corpus. You can change it any other corpus in the *nltk* library(see list below) or supply your own corpus(see format below)
-- Pre-trained models are available in the */models* folder of this repository(see usage below)
-- 
+-  The default training corpus is the *Brown* corpus. You can change it any other corpus in the *nltk* library(see list below) or supply your own corpus(see format below)
+-  Pre-trained models are available in the */models* folder of this repository(see usage below)
+-  The implementation details can found in the lecture slides of Pushpak Bhattacharya. Link to the slides is [here](https://www.cse.iitb.ac.in/~pb/cs626-2013/cs626-lect11to17-pos-2013-8-13.pdf).
 ## 
